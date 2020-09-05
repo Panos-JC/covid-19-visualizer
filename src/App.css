@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f2f3f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stats {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: -75px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.app__map {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -50px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__card {
+  margin-top: 15px;
+  padding: 20px;
+  width: 25%;
+}
+
+.MuiAvatar-root {
+  flex-grow: 0 !important;
+}
+
+.app__country div {
+  display: flex;
   align-items: center;
+  flex-grow: 1;
+}
+
+.app__graphTitle {
+  margin-bottom: 20px;
+}
+
+.app__title {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app__title h4 {
+  font-size: 32px !important;
+  color: #262c7c;
+  display: inline-block;
+  margin: 80px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #262c7c;
+  color: #e4e5f7;
+  margin-top: 80px;
+}
+
+.padding {
+  padding: 100px;
+}
+
+.footer2 {
+  border-top: 1px solid #44498c;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1415px) {
+  .container {
+    width: 98%;
   }
 }

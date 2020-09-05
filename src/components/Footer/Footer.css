@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column .logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__column .logo img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.footer__column .text {
+  margin-top: 25px;
+}
+
+.footer__column .title {
+  margin-bottom: 20px;
+}
+
+.footer__column ul {
+  list-style: none;
+  padding: 0;
+  color: #bec1e0;
+}
+
+.footer__column a {
+  color: #bec1e0;
+  text-decoration: none;
+}
+
+.footer__column a:hover {
+  color: white;
+}
+
+.footer__column:first-child {
+  width: 30%;
+}
+
+.social .MuiIconButton-root {
+  color: #eb0065;
+}

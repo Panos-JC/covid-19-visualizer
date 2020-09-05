@@ -1,0 +1,30 @@
+.table {
+  padding: 30px;
+  height: 500px;
+  overflow-y: scroll !important;
+}
+
+.app__country {
+  display: flex;
+  align-items: center;
+  background-color: #f2f3f7;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.avatar {
+  width: 24px !important;
+  height: 24px !important;
+  margin-right: 15px;
+}
+
+.countryName {
+  font-size: 14px !important;
+  color: #2d2e39;
+}
+
+.number {
+  font-size: 14px !important;
+  color: #6468a1;
+}

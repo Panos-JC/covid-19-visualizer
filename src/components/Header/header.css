@@ -1,0 +1,123 @@
+.MuiToolbar-root {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 45px;
+  margin-right: 20px;
+}
+
+.header__title {
+  flex-grow: 1;
+  color: white;
+  font-size: 20px;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #262c7c !important;
+  color: #bec1e0 !important;
+  border-bottom: 1px solid #42478d;
+}
+.MuiButton-root {
+  text-transform: none !important;
+}
+
+main {
+  position: relative;
+  margin-top: 64px;
+  background-color: #262c7c;
+  color: #bec1e0;
+  padding: 170px 0;
+  overflow: hidden;
+}
+
+.header__text {
+  width: 430px;
+}
+
+.header__title2 {
+  font-size: 32px !important;
+  color: white;
+  margin-bottom: 40px !important;
+}
+
+.header__actions a {
+  text-decoration: none;
+}
+
+.header__actions .MuiButton-root {
+  color: white;
+  margin-top: 80px;
+}
+
+.header__actions .MuiButton-text {
+  padding: 6px 25px;
+}
+
+.MuiButton-endIcon {
+  margin-left: 20px !important;
+}
+
+.header__cta {
+  background-color: #eb0065 !important;
+  margin-right: 15px !important;
+}
+
+.MuiButton-outlined {
+  border-color: white !important;
+  padding: 5px 25px !important;
+}
+
+.header__virus {
+  position: absolute;
+  transform: translate(200%, -90%);
+}
+
+.header__virus img {
+  width: 30vw;
+}
+
+.virus2 {
+  position: absolute;
+  left: 0;
+}
+
+.ghost {
+  position: absolute;
+}
+
+.ghost1 {
+  left: 70px;
+  top: 50px;
+}
+
+.ghost2 {
+  bottom: -50px;
+}
+.ghost3 {
+  top: 170px;
+  left: 500px;
+}
+.ghost4 {
+  left: 40%;
+  width: 17vw;
+  bottom: -4vw;
+}
+.ghost5 {
+  right: -6vw;
+  top: -100px;
+  overflow: hidden;
+}
+
+.rotate {
+  animation: rotation 100s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

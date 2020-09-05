@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  height: 300px;
+  text-align: center;
+}
+
+.bgColor {
+  background-color: #f2f3f7 !important;
+}
+
+.card__avatar {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0 auto;
+}
+
+.card__body {
+  font-size: 16px !important;
+  color: #6468a1;
+}
+
+.card__title {
+  font-size: 24px !important;
+  color: #262c7c;
+  margin: 25px 0 !important;
+}
