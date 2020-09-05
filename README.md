@@ -23,3 +23,7 @@ cd covid-19-visualizer
 ```bash
 npm install
 ```
+
+### Disclaimer
+
+This project was created for learning purposes. If you are looking for robust data and graphs about Covid-19 please use a well known and trusted source.
